@@ -1,0 +1,62 @@
+body {
+    background-color: #ffefa1;
+    color: #393e46
+}
+
+img {  
+    max-width: 100%;  
+    height: auto;  
+    border-radius: 100%;
+} 
+
+td {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+a.footer {
+    padding: 1%;
+}
+
+hr {
+    border-style: dotted none none;
+    width: 2%;
+    height: 2px;
+    color: #afb9c8;
+    border-width: 5px;
+
+}
+
+input {
+    margin: 3px;
+}
+
+td.left {
+    width: 15%;
+}
+
+table.experience {
+    margin-right: 10rem;
+    width: 70%;
+    margin-bottom: 2rem;
+}
+
+th {
+    text-align: center;
+}
+
+h1 {
+    color: #393e46;
+}
+
+h3 {
+    color: #393e46;
+}
+
+.circular {
+    border-radius: 100%;
+}
+
+
+
+
