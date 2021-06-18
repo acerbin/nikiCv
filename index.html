@@ -12,10 +12,10 @@
     <link rel="stylesheet" href="style.css">
 
 </head>
-<body id="background">  
-    <header class="top-container">
+<body>  
+    <header class="top-container" id="top">
         <img src="images/sun.png" class="t_cloud" alt="">
-        <div class="intro-text">
+        <div class="header-text">
             <h1  class="enlarge">I am Nicole.</h1>
             <h2 class="subtitle">and I'm 7.</h2>
         </div>
@@ -24,68 +24,121 @@
     </header>
 
     <section class="intro">
-        <img class="circular" src="images/nicole.png" alt="Nicole Zhelyazkova's cartoon picture">
-        <div class="padme">
-            <h1>Nicole Zhelyazkova</h1>
-            <h2>Enthousiast, Performer, Athlete</h2>
-            <p>I like to go to school, on holidays, try new sports and to make new friends.</p>
+        <div class="row">
+            <div class="col-lg-4  col-sm-12">
+                <img class="circular" src="images/nicole.png" alt="Nicole Zhelyazkova's cartoon picture">
+            </div>
+            <div class="col-lg-8 col-sm-12 padme">
+                <h1>Nicole Zhelyazkova</h1>
+                <h2>Enthousiast, Performer, Athlete</h2>
+                <p>I like to go to school, on holidays, try new sports and to make new friends.</p>
+            </div>
         </div>
+        <!-- <div class="padme">
+
+        </div> -->
 
     
     </section>
-    <hr>
+    <!-- <hr> -->
 
-    <section>
+    <section id="sports">
         <h3>Favourite Sports and Activities</h3>
-        <ul>
+        <div class="row">
+            <div class="col-lg-3 col-md-6"><h4>Gymnastics</h4></div>
+            <div class="col-lg-3 col-md-6"><h4>Swimming</h4></div>
+            <div class="col-lg-3 col-md-6"><h4>Drama and Theatre</h4></div>
+            <div class="col-lg-3 col-md-6"><h4>Tennis</h4></div>
+
+        </div>
+        <!-- <ul>
             <li>Gymnastics, Grade 4 </li>
             <li>Swimming, Stage 3</li>
             <li>Drama and Theatre, Stage 2</li>
             <li>Tennis, Orange ball </li>
-    
-        </ul>
-        <hr>
+        </ul> -->
+        <!-- <hr> -->
     </section>
 
-    <section>
+    <section id="education">
         <h3>Education</h3>
-        <table class="experience">
+        <table class="table table-hover">
             <thead>
-                <tr>
-                    <th>Dates</th>
-                    <th>Milestone</th>
-                    <th>Teacher</th>
-                    <th>Organisation</th>
-                </tr>
+              <tr>
+                <th scope="col">Dates</th>
+                <th scope="col">Milestone</th>
+                <th scope="col">Teachers</th>
+                <th scope="col">Assistants</th>
+                <th scope="col">Organisation</th>
+              </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td>2020 - </td>
-                    <td>Year 2</td>
-                    <td>Mrs Maxwell, Mrs Greenway, Mrs Khan, Ass. Mrs Hamilton</td>
-                    <td>Smitham Primary School, Coulsdon</td>
-                </tr>
-                <tr>
-                    <td>2019 - 2020</td>
-                    <td>Year 1</td>
-                    <td>Miss Jones, Ass. Mrs Witherington</td>
-                    <td>Smitham Primary School, Coulsdon</td>
-                </tr>
-                <tr>
-                    <td>2018 - 2019</td>
-                    <td>Reception Year</td>
-                    <td>Mrs Anderson, Ass. Mrs Drink</td>
-                    <td>Smitham Primary School, Coulsdon</td>
-                </tr>
+              <tr>
+                <th scope="row">2020 - Present</th>
+                <td>Year 2</td>
+                <td>Mrs Maxwell, Mrs Greenway, Mrs Khan</td>
+                <td>Mrs Hamilton</td>
+                <td>Smitham Primary School, Coulsdon</td>
+              </tr>
+              <tr>
+                <th scope="row">2019 - 2020</th>
+                <td>Year 1</td>
+                <td>Miss Jones</td>
+                <td>Mrs Witherington</td>
+                <td>Smitham Primary School, Coulsdon</td>
+              </tr>
+              <tr>
+                <th scope="row">2018 - 2019</th>
+                <td>Reception</td>
+                <td>Mrs Anderson</td>
+                <td>Mrs Drink</td>
+                <td>Smitham Primary School, Coulsdon</td>
+              </tr>
             </tbody>
-        </table>
+          </table>
     </section>
 
-    <hr>
 
-    <section>
+
+    <section id="skills">
         <h3>Skills</h3>
-        <table>
+
+        <table class="table table-hover">
+            <tbody>
+              <tr>
+                <th scope="row">Acting</th>
+                <td>⭐️⭐️⭐️⭐️⭐️</td>
+                <td>Gymnastics</td>
+                <td>⭐️⭐️⭐️⭐️⭐️</td>
+                <td>Reading</td>
+                <td>⭐️⭐️⭐️⭐️⭐️</td>
+                <td>Maths</td>
+                <td>⭐️⭐️⭐️⭐️⭐️</td>
+              </tr>
+              <tr>
+                <th scope="row">Dancing</th>
+                <td>⭐️⭐️⭐️⭐️⭐️</td>
+                <td>Swimming</td>
+                <td>⭐️⭐️⭐️⭐️⭐️</td>
+                <td>Telling The Time on Analogue Clock</td>
+                <td>⭐️⭐️⭐️⭐️⭐️</td>
+                <td>Brushing teeth</td>
+                <td>⭐️⭐️⭐️⭐</td>
+              </tr>
+              <tr>
+                <th scope="row">Singing</th>
+                <td>⭐️⭐️⭐️⭐️⭐️</td>
+                <td>Tennis</td>
+                <td>⭐️⭐️⭐️⭐️⭐️</td>
+                <td>Chess</td>
+                <td>⭐️⭐️⭐️</td>
+                <td>Cooking</td>
+                <td>⭐️⭐️⭐️⭐️⭐️</td>
+              </tr>
+            </tbody>
+          </table>
+
+        <!-- <table>
             <tr>
                 <td>
                     <table>
@@ -136,18 +189,23 @@
                     </table> 
                 </td>
             </tr>
-        </table>
+        </table> -->
     </section>
 
 
-    <hr>
-    <h3>
+    <!-- <hr> -->
+
+
+    <div class="footerLinks">
         <a href="hobbies.html" class="footer">Hobbies</a>
         <a href="movies.html" class="footer">Favourite Movies and Series</a>
         <a href="books.html" class="footer">Favourite Books</a>
         <a href="websites.html" class="footer">Favourite Websites</a>
         <a href="contact.html" class="footer">Contact Me</a>
-    </h3>
-    <hr>
-</body>
+    </div>
+    <footer class="bottom-container">
+        <a href="#top">Top</a>
+        <span class="copyright">© 2021 Katrina Savova</span>
+    </footer>
+
 </html>
