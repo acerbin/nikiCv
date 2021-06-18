@@ -149,14 +149,17 @@ img.t_cloud {
 
 /* Contact me */
 
-.contact-me {
-    text-align: center;
-    margin-top: 6rem;
-    padding: 2rem;
-
+.contactHeaders {
+    padding: 2% 2% 0;
 }
 
+#contactForm {
+    padding: 2%;
+}
 
+input {
+    margin: 5px;
+}
 
 /* Buttons */
 

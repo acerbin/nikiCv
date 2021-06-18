@@ -13,23 +13,30 @@
 
 </head>
 <body id="background">
-    <h1>Contact Details</h1>
-    <p>
-        <ul>
-            <li>Email: <a href='mailto:kfitcamp@gmail.com'>kfitcamp@gmail.com</a></li>
+    <div class="contactHeaders">
+        <h1>Contact Form</h1>
+        <p>Send me a message in the form below. I would love to respond.</p>
+    </div>
+
+            <!-- <li>Email: <a href='mailto:kfitcamp@gmail.com'>kfitcamp@gmail.com</a></li>
             <li>Surrey, United Kingdom</li>
-            <hr>
-            <h3>Contact form</h3>
-            <form action="malto:mailto:kfitcamp@gmail.com" method="POST">
-                <label for="name">Your Name: </label>
-                <input type="text" name="name"><br>
-                <label for="email">Your Email: </label>
-                <input type="email" name="email"><br>
-                <label for="message">Your message: </label><br>
-                <textarea name="message" id="" cols="30" rows="10"></textarea><br>
-                <input type="submit">
-            </form>
-        </ul>
-    </p>
+            <hr> -->
+            <!-- <h3>Contact form</h3> -->
+    <form action="malto:mailto:kfitcamp@gmail.com" method="POST" id="contactForm">
+        <div class="form-group">
+            <label for="name">Your Name: </label>
+            <input type="text" name="name"><br>
+            <label for="email">Your Email: </label>
+            <input type="email" name="email"><br>
+            <label for="message">Your message: </label><br>
+            <textarea name="message" id="" cols="30" rows="10"></textarea><br>
+            <input type="submit" class="btn btn-large btn-outline-dark">
+        </div>
+
+    </form>
+    <footer class="bottom-container">
+        <a href="index.html">Back to Home</a>
+        <span class="copyright">© 2021 Katrina Savova</span>
+    </footer>
 </body>
 </html>
