@@ -217,6 +217,8 @@ input {
     display: block;
     padding: 2rem;
     font-size: 0.75rem;
+    background-color: #b38585;
+    width: 100%;
 }
 
 a.footer {
@@ -234,7 +236,7 @@ a.footer {
 
 }
 .bottom-container {
-    padding: 5% 10% 6%;
+    padding: 5% 0 6%;
     background-color: #b38585;
     margin: 0;
     padding-top: 2rem;
