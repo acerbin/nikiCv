@@ -35,7 +35,8 @@ h1 {
     color: #b38585;
         /* color: #66BFBF; */
     margin: 0;
-    font-family: 'Sacramento', cursive;
+    /* font-family: 'Sacramento', cursive; */
+    font-family: 'Indie Flower', cursive;
     font-size: 5.625rem;
 }
 
@@ -124,6 +125,14 @@ img.t_cloud {
 
 .padme {
     padding-top: 5rem;
+}
+
+.padme5 {
+    padding: 5%
+}
+
+.padme-bottom {
+    padding-bottom: 5%;
 }
 
 /* Sports */
